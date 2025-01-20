@@ -8,7 +8,6 @@ tags:
   - csharp
   - dockerfile
   - go
-  - ide
   - java
   - javascript
   - json
@@ -30,6 +29,11 @@ types:
   - service
 source: 'https://github.com/returntocorp/semgrep'
 homepage: 'https://semgrep.dev'
+resources:
+  - title: Semgrep Quick Start Tutorial
+    url: https://www.youtube.com/watch?v=8jyp8DkhmYo
+  - title: Semgrep presentation by r2c at Bay Area OWASP Meetup
+    url: https://www.youtube.com/watch?v=pul1bRIOYc8
 description: >-
   A fast, open-source, static analysis tool
   for finding bugs and enforcing code standards
@@ -37,3 +41,7 @@ description: >-
   Its rules look like the code you already write; 
   no abstract syntax trees or regex wrestling.
   Supports 17+ languages.
+reviews:
+  - https://stackshare.io/semgrep
+demos:
+  - https://semgrep.dev/playground
